@@ -26,6 +26,11 @@ options.add_argument(
     "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.78 Safari/537.36"
 )
 
+# Set the path to the headless-chromium binary
+# If running locally, specify the path to where you have the chromedriver binary
+CHROMIUM_PATH = "https://github.com/Kavrelithito/csv-2/blob/main/drivers/headless-chromium"  # Replace this with actual path
+
+
 # Add download preferences
 prefs = {
     "download.default_directory": download_dir,
